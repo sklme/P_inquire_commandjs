@@ -4,7 +4,7 @@
   "description": "简单的typescript脚手架工具",
   "main": "./lib/index.js",
   "bin": {
-    "ts-cli": "./bin/ts-cli.js"
+    "ts1-cli": "./bin/ts-cli.js"
   },
   "scripts": {
     "dev:comment": "启动开发环境",
@@ -28,6 +28,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "reflect-metadata": "^0.1.13"
+    "chalk": "^5.0.0",
+    "clear-console": "^1.1.0",
+    "commander": "^8.3.0",
+    "inquirer": "^8.2.0",
+    "reflect-metadata": "^0.1.13",
+    "shelljs": "^0.8.4"
   }
 }
