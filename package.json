@@ -8,7 +8,7 @@
   },
   "scripts": {
     "dev:comment": "启动开发环境",
-    "dev": "ts-node-dev --respawn --transpile-only src/index.ts  -d --show-log",
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts  -d --show-log 20 -x we",
     "prepare:comment": "安装husky",
     "prepare": "husky install"
   },
