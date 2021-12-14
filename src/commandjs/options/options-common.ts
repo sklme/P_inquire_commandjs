@@ -24,6 +24,7 @@ if (options.small) console.log('- small pizza size');
 if (options.pizzaType) console.log(`- ${options.pizzaType as string}`);
 
 // 测试：
+//    node options-common.js -d
 //    node options-common.js -p
 //    node options-common.js -d -s -p vegetarian
 //    node options-common.js --pizza-type=cheese
