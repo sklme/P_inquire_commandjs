@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "name": "@wrynn/ts-cli",
   "version": "1.0.0",
   "description": "简单的typescript脚手架工具",
@@ -30,6 +31,7 @@
   "license": "ISC",
   "dependencies": {
     "chalk": "^5.0.0",
+    "chalk-pipe": "^5.1.1",
     "clear-console": "^1.1.0",
     "cmdify": "^0.0.4",
     "commander": "^8.3.0",
