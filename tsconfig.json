@@ -8,12 +8,13 @@
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "outDir": "lib",
+    "outDir": "./lib",
     "baseUrl": "./",
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
+    "allowJs": true
   },
-  "include": ["src/**/*", ".eslintrc.js"],
+  "include": ["src/**/*"],
   "exclude": ["node_modules", "dist", "lib"]
 }
