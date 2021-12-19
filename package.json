@@ -5,7 +5,7 @@
   "description": "简单的typescript脚手架工具",
   "main": "./lib/index.js",
   "bin": {
-    "ts1-cli": "./bin/ts-cli.js"
+    "ts1-cli": "./lib/commandjs/hook.js"
   },
   "scripts": {
     "dev:comment": "启动开发环境",
