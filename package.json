@@ -5,11 +5,11 @@
   "description": "简单的typescript脚手架工具",
   "main": "./lib/index.js",
   "bin": {
-    "ts1-cli": "./lib/commandjs/hook.js"
+    "merryChrismas": "./lib/merryChrismas.js"
   },
   "scripts": {
     "dev:comment": "启动开发环境",
-    "dev": "ts-node-dev --respawn --transpile-only src/index.ts  -d --show-log 20 -x we",
+    "dev": "ts-node-dev --respawn --transpile-only src/merryChrismas.ts  -d --show-log 20 -x we",
     "prepare:comment": "安装husky",
     "prepare": "husky install",
     "build:comment": "安装husky",
@@ -33,11 +33,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "ascii-art": "^2.8.5",
     "chalk": "^5.0.0",
+    "chalk-animation": "^1.6.0",
     "chalk-pipe": "^5.1.1",
     "clear-console": "^1.1.0",
     "cmdify": "^0.0.4",
     "commander": "^8.3.0",
+    "gradient-string": "^2.0.0",
     "inquirer": "^8.2.0",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^7.4.0",
